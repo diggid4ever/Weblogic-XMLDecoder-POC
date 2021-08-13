@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="modules">
+    <CLASSES>
+      <root url="file://$USER_HOME$/code-env/WeblogicEnvironment/weblogic1036jdk7u21/modules" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/code-env/WeblogicEnvironment/weblogic1036jdk7u21/modules" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/code-env/WeblogicEnvironment/weblogic1036jdk7u21/modules" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/code-env/WeblogicEnvironment/weblogic1036jdk7u21/modules" recursive="false" type="SOURCES" />
+  </library>
+</component>

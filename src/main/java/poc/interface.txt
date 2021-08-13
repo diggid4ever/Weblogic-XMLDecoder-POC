@@ -1,0 +1,9 @@
+/wls-wsat/CoordinatorPortType
+/wls-wsat/RegistrationPortTypeRPC
+/wls-wsat/ParticipantPortType
+/wls-wsat/RegistrationRequesterPortType
+/wls-wsat/CoordinatorPortType11
+/wls-wsat/RegistrationPortTypeRPC11
+/wls-wsat/ParticipantPortType11
+/wls-wsat/RegistrationRequesterPortType11
+/_async/AsyncResponseService // 2019-2725的POC1只能使用该接口，且未打之前的补丁
